@@ -1,0 +1,48 @@
+.task {
+	padding-bottom: 15px;
+	display: flex;
+	flex-direction: column;
+}
+.pop__task{
+		padding: 0 20px;	
+		margin: 0 auto;
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		background-color: #14141454;
+		.input__block{
+			padding-top: 10px;
+			
+			display: flex;
+			flex-direction: column;
+			.pop__title{
+				width: 200px;
+				border-radius: 7px;
+				padding: 3px;
+				margin-bottom: 10px;
+				
+			}
+			.pop__text{
+				width: 200px;
+				border-radius: 7px;
+				padding: 3px;
+				margin-bottom: 10px;
+				
+			}
+			.pop__label{
+				width: 200px;
+				border-radius: 7px;
+				padding: 3px;
+				margin-bottom: 10px;
+			}
+
+		}
+		
+		.pop__button{
+			width: 60px;
+			height: 60px;
+			margin-left: 15px;
+			border-radius: 15px;
+			background-color: #6fe26f;
+		}
+}

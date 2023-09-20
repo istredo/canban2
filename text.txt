@@ -1,0 +1,18 @@
+LS
+
+LS создаем под вкладку туду, канбан на бэк
+key: Todo
+{title: taskTitle, 
+date: taskDate,
+creator: taskCreator,
+label: taskLabel}
+
+для канбана:
+key: taskName   //Название столбца тасок(complete, needs review, new. in progress...  )
+{title: taskTitle, 
+date: taskDate,
+creator: taskCreator,
+label: taskLabel,
+}
+
+перемещение задач вверх\вниз по столбцу
